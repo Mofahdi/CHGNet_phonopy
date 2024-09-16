@@ -25,7 +25,7 @@ the code will generate these files:
 
 ## args explanation
 **--atoms_path**: structure path ('./POSCAR' by default) \
-**--relax**: whether chgnet will relax the structure or not (False by default) \
+**--relax**: whether chgnet will relax the structure before the displacments or not (False by default) \
 **--supercell-dims**: supercell dimensions (222 by default)\
 **--disp**: atomic displacement amplitude in Angstroms (0.01 by default)\
 **--num_rand_disp**: # of random displacements. you might have to install alm to produce 2nd order IFCs (None by default) \
