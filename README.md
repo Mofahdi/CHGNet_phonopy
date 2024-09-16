@@ -24,7 +24,7 @@ the code will generate these files:
 4- **orig_band.conf**: file that has the q-points or phonon wavevectors that were used to get the frequencies to output the **stability** file
 5- **SPOSCAR_###**: # represents the supercell dimension
 
-## args explanation
+## Args Explanation
 **--atoms_path**: structure path ('./POSCAR' by default) \
 **--relax**: whether chgnet will relax the structure before the displacments or not (False by default) \
 **--supercell-dims**: supercell dimensions (222 by default)\
@@ -36,7 +36,16 @@ the code will generate these files:
 **--stability_criteria**: frequency stability threshold. If one frequency is less than that value, "unstable" is written on **stability** file (-0.1 by default)\
 **--output_ph_band**: output phonon dispersion plot in file **phonopy_bands_dos.png**(True by default)\
 
-## credit
+## Installation
+the code is tested on the following packages and versions:
+<code>torch=2.0.1</code>
+<code>pymatgen=2023.11.12</code>
+<code>ase=3.23.0</code>
+<code>chgnet=0.3.5</code>
+<code>phonopy=2.20.0</code>
+Those packages can probably work with different versions
+
+## Credit and Citation
 * please cite this work since the code was used to produce it:</br>
 Ojih, J.; Al-Fahdi, M.; Yao, Y.; Hu, J.; Hu, M. Graph Theory and Graph Neural Network Assisted High-Throughput Crystal Structure Prediction and Screening for Energy Conversion and Storage. **Journal of Materials Chemistry A** *2024*, 12 (14), 8502–8515
 
