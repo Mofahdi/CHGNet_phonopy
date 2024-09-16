@@ -46,7 +46,7 @@ the code is tested on the following packages and versions:
 </br>The code can probably work with different versions of the above packages
 
 ## Credit and Citation
-* please cite this work since the code was used to produce it:</br>
+* please cite this journal article below since the code was used to produce the article:</br>
 Ojih, J.; Al-Fahdi, M.; Yao, Y.; Hu, J.; Hu, M. Graph Theory and Graph Neural Network Assisted High-Throughput Crystal Structure Prediction and Screening for Energy Conversion and Storage. **Journal of Materials Chemistry A** *2024*, 12 (14), 8502–8515
 *  please consider reading my published work in Google Scholar using this [link](https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en&oi=ao) thank you :)
 *  also please let me know if more features are needed to be added and/or improved 
