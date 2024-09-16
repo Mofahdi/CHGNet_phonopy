@@ -4,7 +4,8 @@ code to generate 2nd order interatomic force constants from phonopy using CHGNet
 ## Usage
 you can test the code by running the following:</br>
 
-<code>python chgnet_phonopy_run.py \
+<code>
+python chgnet_phonopy_run.py \
 	--atoms_path='POSCAR' \
 	--relax=True \
 	--supercell-dims=222 \
