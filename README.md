@@ -3,8 +3,8 @@ code to generate 2nd order interatomic force constants from phonopy using CHGNet
 
 ## Usage
 you can test the code by running the following:</br>
-<code>
-python chgnet_phonopy_run.py \
+
+<code>python chgnet_phonopy_run.py \
 	--atoms_path='POSCAR' \
 	--relax=True \
 	--supercell-dims=222 \
@@ -16,6 +16,7 @@ python chgnet_phonopy_run.py \
 	--stability_criteria=-0.1 \
 	--output_ph_band=True
 </code>
+
 the code will generate these files: 
 1-**FORCE_CONSTANTS**: 2nd order IFCs in phonopy format
 2-**stability**: it shows the words "stable" or "unstable" based on the "stability_criteria" argument
