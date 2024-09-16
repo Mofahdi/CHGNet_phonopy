@@ -22,7 +22,7 @@ the code will generate these files: </br>
 2-**stability**: it shows the words "stable" or "unstable" based on the "stability_criteria" argument</br>
 3- **band.conf**: file that can be used later by phonopy to plot the phonon dispersion</br>
 4- **orig_band.conf**: file that has the q-points or phonon wavevectors that were used to get the frequencies to output the **stability** file</br>
-5- **SPOSCAR_###**: # represents the supercell dimension</br>
+5- **SPOSCAR_###**: supercell of the input structure where # represents the supercell dimension</br>
 
 ## Args Explanation
 **--atoms_path**: structure path ('./POSCAR' by default) \
@@ -48,5 +48,5 @@ Those packages can probably work with different versions
 ## Credit and Citation
 * please cite this work since the code was used to produce it:</br>
 Ojih, J.; Al-Fahdi, M.; Yao, Y.; Hu, J.; Hu, M. Graph Theory and Graph Neural Network Assisted High-Throughput Crystal Structure Prediction and Screening for Energy Conversion and Storage. **Journal of Materials Chemistry A** *2024*, 12 (14), 8502–8515
-
-* also please consider reading my published work in Google Scholar using this [link](https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en&oi=ao) thank you :)
+*  please consider reading my published work in Google Scholar using this [link](https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en&oi=ao) thank you :)
+*  also please let me know if more features are needed to be added and/or improved 
