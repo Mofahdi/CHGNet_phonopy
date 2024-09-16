@@ -17,12 +17,12 @@ you can test the code by running the following:</br>
 	--output_ph_band=True
 </code>
 
-the code will generate these files: 
-1-**FORCE_CONSTANTS**: 2nd order IFCs in phonopy format
-2-**stability**: it shows the words "stable" or "unstable" based on the "stability_criteria" argument
-3- **band.conf**: file that can be used later by phonopy to plot the phonon dispersion
-4- **orig_band.conf**: file that has the q-points or phonon wavevectors that were used to get the frequencies to output the **stability** file
-5- **SPOSCAR_###**: # represents the supercell dimension
+the code will generate these files: </br>
+1-**FORCE_CONSTANTS**: 2nd order IFCs in phonopy format</br>
+2-**stability**: it shows the words "stable" or "unstable" based on the "stability_criteria" argument</br>
+3- **band.conf**: file that can be used later by phonopy to plot the phonon dispersion</br>
+4- **orig_band.conf**: file that has the q-points or phonon wavevectors that were used to get the frequencies to output the **stability** file</br>
+5- **SPOSCAR_###**: # represents the supercell dimension</br>
 
 ## Args Explanation
 **--atoms_path**: structure path ('./POSCAR' by default) \
