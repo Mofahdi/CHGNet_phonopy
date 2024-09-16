@@ -43,7 +43,7 @@ the code is tested on the following packages and versions:
 <code>ase=3.23.0</code>
 <code>chgnet=0.3.5</code>
 <code>phonopy=2.20.0</code>
-Those packages can probably work with different versions
+</br>The code can probably work with different versions of the above packages
 
 ## Credit and Citation
 * please cite this work since the code was used to produce it:</br>
