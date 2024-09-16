@@ -17,16 +17,16 @@ python chgnet_phonopy_run.py \
 	--output_ph_band=True
 </code>
 ## args explanation
-*--atoms_path*: ('./POSCAR' by default)
-*--relax*: (False by default)
-*--supercell-dims*: supercell dimensions (222 by default)
-*--disp*: atomic displacement (0.01 by default)
+*--atoms_path*: ('./POSCAR' by default) \
+*--relax*: (False by default) \
+*--supercell-dims*: supercell dimensions (222 by default)\
+*--disp*: atomic displacement (0.01 by default)\
 *--num_rand_disp*: None \
 *--output_disp*: True \
 *--pretrained_model*: True \
-*--model_path*: None 
+*--model_path*: None \
 *--stability_criteria*: -0.1 \
-*--output_ph_band*: True
+*--output_ph_band*: True\
 
 * please cite this work since the code was used to produce it:</br>
 Ojih, J.; Al-Fahdi, M.; Yao, Y.; Hu, J.; Hu, M. Graph Theory and Graph Neural Network Assisted High-Throughput Crystal Structure Prediction and Screening for Energy Conversion and Storage. **Journal of Materials Chemistry A** *2024*, 12 (14), 8502–8515
