@@ -17,7 +17,7 @@ python chgnet_phonopy_run.py \
 	--stability_criteria=-0.1 \
 	--output_ph_band=True
 </code>
-
+</br>
 the code will generate these files: </br>
 1-**FORCE_CONSTANTS**: 2nd order IFCs in phonopy format</br>
 2-**stability**: it shows the words "stable" or "unstable" based on the "stability_criteria" argument</br>
