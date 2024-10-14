@@ -37,7 +37,8 @@ class chgnet_phonopy:
 		# create supercell attribute in object through the supercell function
 		self.supercell=self.create_supercell()	
 
-	# function to create supercell 
+	
+	''' function to create supercell '''
 	def create_supercell(
 			self
 			):
@@ -47,7 +48,8 @@ class chgnet_phonopy:
 		new_structure.to(filename=supercell_name)
 		return new_structure
 
-	# generate kpoints 
+	
+	''' generate kpoints '''
 	def get_jarvis_kpoints(
 				self, 
 				line_density=20,
@@ -56,7 +58,7 @@ class chgnet_phonopy:
 		return kpoints
 
 
-	# function to save object using pickle
+	''' function to save object attributes using pickle '''
 	def save_to_pickle(
 				self, 
 				filename='chgnet_phonopy_attrs.pkl',
@@ -66,7 +68,7 @@ class chgnet_phonopy:
 			pickle.dump(self, outp, pickle.HIGHEST_PROTOCOL)
 
 
-	# function to generate displacements and 2nd order IFC. The IFC is saved as object attribute
+	''' function to generate displacements and 2nd order IFC. The IFC is saved as object attribute '''
 	def get_phonon_fc2(
 				self, 
 				displacement=0.01, 
@@ -108,7 +110,8 @@ class chgnet_phonopy:
 		# save the phonon attribute to the object
 		self.phonon=phonon
 
-	# function to output the phonon dispersion and DOS
+	
+	''' function to output the phonon dispersion and DOS '''
 	def get_phonon_dos_bs(
 				self, 
 				line_density=30, 
@@ -181,8 +184,8 @@ class chgnet_phonopy:
 				stable_file.write('unstable'); #print('unstable')
 #		"""
 #		exit()
-
 #		print(output_ph_band)
+					
 		if output_ph_band:
 			freqs = np.array(freqs)
 			freqs = freqs * freq_conversion_factor
@@ -232,9 +235,9 @@ class chgnet_phonopy:
 			plt.tight_layout()
 			plt.savefig(os.path.join(self.path, phonopy_bands_dos_figname), dpi=dpi)
 			plt.close()
-#		"""
 
-	# 
+	
+	''' function to mesh paths '''
 	def mesh_bands(
 		self,
 		filename="orig_band.conf",
